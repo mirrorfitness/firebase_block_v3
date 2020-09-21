@@ -2,7 +2,7 @@ include: "user_properties_generated*"
 include: "events_generated*"
 
 view: events {
-  sql_table_name: `firebase-public-project.analytics_153293282.events_*`  ;;
+  sql_table_name: `firebase.analytics_190286051.events_*`  ;;
 
   extends: [events_generated,user_properties_generated]
 
